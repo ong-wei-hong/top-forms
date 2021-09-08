@@ -1,0 +1,11 @@
+<h1>Create new user:</h1><br>
+
+<%= form_with model: User.new do |form| %>
+  <%= label(:user, :username, "Your username here:") %>
+  <%= text_field(:user, :username, placeholder: "Username") %><br>
+  <%= label(:user, :email, "Your email here:") %>
+  <%= text_field(:user, :email, placeholder: "Email") %><br>
+  <%= label(:user, :password, "Your password here:") %>
+  <%= password_field(:user, :password, placeholder: "Password") %><br>
+  <%= form.submit %>
+<% end %>

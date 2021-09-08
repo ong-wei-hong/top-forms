@@ -1,24 +1,7 @@
-# README
+# Forms
+<p><a href="https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/forms">Project: Forms</a></p>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<p>Only the new and edit page for each user has been built, to access these, go:</p>
+<p>/users/new</p>
+<p>or</p>
+<p>/users/[:id]/edit</p>
